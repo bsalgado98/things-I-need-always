@@ -4,6 +4,16 @@
 
   outline: white solid 1px;
   border-radius: 2px;
+
+  transition: background 0.2s linear;
+}
+
+.toggled {
+  background: green;
+}
+
+.untoggled {
+  background: none;
 }
 
 .resourceContainer {
@@ -27,6 +37,4 @@
   align-items: center;
 
   font-style: italic;
-
-  /* background: red; */
 }

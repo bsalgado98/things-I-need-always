@@ -10,6 +10,24 @@
   /* background: pink; */
 }
 
+.rootHeader {
+  position: absolute;
+  top: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background: purple; */
+}
+
+.headerTitle {
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
+}
+
 .rootFooter {
   position: absolute;
   bottom: 10;
